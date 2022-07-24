@@ -5,8 +5,8 @@ import { useState } from 'react'
 const Logo = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
-        <nav className="navigation px-2 md:px-20 text-white">
-            <a href='/'>
+        <nav className="navigation px-2 md:px-20 pt-4">
+            <a className='text-white' href='/'>
                 <div className=''>
                 <img src={process.env.PUBLIC_URL+`assets/logo.png`} alt='logo' width='120px' height='auto'></img>
                 </div>
@@ -38,8 +38,8 @@ const Logo = () => {
                     <li><a href='#ladies'>Lens Lasies</a></li>
                     <li><a href='#artists'>Artists</a></li>
                     <li><a href='#faqs'>FAQs</a></li>
-                    <li><a href="/">Login</a></li>
-                    <li><a href="/">Sign Up</a></li>
+                    <li><a href="/"><button>Login</button></a></li>
+                    <li><a className='text-white' href="/"><button>Sign Up</button></a></li>
                 </ul>
             </div>
         </nav>
@@ -47,3 +47,28 @@ const Logo = () => {
 }
 
 export default Logo
+// const Logo = () => {
+//   return (
+//     <div className='flex text-white justify-between'>
+//         <div>
+//         <img src={process.env.PUBLIC_URL+`assets/logo.png`} alt='logo' width='120px' height='auto'></img>
+//         </div>
+//         <div className='flex'>
+//             <ul className='flex'>
+//                 <ul><a href='#artverse'>Artverse</a></ul>
+//                 <ul><a href='#team'>The Team</a></ul>
+//                 <ul><a href='#ladies'>Lens Lasies</a></ul>
+//                 <ul><a href='#artists'>Artists</a></ul>
+//                 <ul><a href='#faqs'>FAQs</a></ul>
+//             </ul>
+//             <div>
+//             <button>Login</button>
+//             <button>Sign Up</button>
+//         </div>
+//         </div>
+       
+//     </div>
+//   )
+// }
+
+// export default Logo
