@@ -6,7 +6,7 @@ const Logo = () => {
         <div>
         <img src={process.env.PUBLIC_URL+`assets/logo.png`} alt='logo' width='120px' height='auto'></img>
         </div>
-        <div className='inline-flex'>
+        <div className='flex justify-'>
             <ul className='flex'>
                 <ul><a href='#artverse'>Artverse</a></ul>
                 <ul><a href='#team'>The Team</a></ul>

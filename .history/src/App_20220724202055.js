@@ -8,7 +8,6 @@ function App() {
       </video>
       <div className='px-8 pt-8'>
       <Header />
-      </div>
     </div>
   );
 }
