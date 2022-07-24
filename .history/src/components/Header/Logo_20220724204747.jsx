@@ -5,7 +5,7 @@ import { useState } from 'react'
 const Logo = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
-        <nav className="navigation px-2 md:px-20 text-white font-semibold">
+        <nav className="navigation px-2 md:px-20 text-white">
             <a href='/'>
                 <div className=''>
                 <img src={process.env.PUBLIC_URL+`assets/logo.png`} alt='logo' width='120px' height='auto'></img>
@@ -39,7 +39,7 @@ const Logo = () => {
                     <li><a href='#artists'>Artists</a></li>
                     <li><a href='#faqs'>FAQs</a></li>
                     <li><a href="/">Login</a></li>
-                    <li><a className='btn' href="/">Sign Up</a></li>
+                    <li><a href="/">Sign Up</a></li>
                 </ul>
             </div>
         </nav>
