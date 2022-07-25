@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8rem;
+}
+
+#background-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.btn{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 4px 15px;
+}
+
+.btn-search{
+  border: 1px solid #fff;
+  border-radius: 0 10px 10px 0px;
+}
+
+.search-box{
+  border: 1px solid #fff;
+  border-radius: 10px 0 0 10px;
+}
+.search-box:focus{
+  border: 1px solid #fff;
+}
+
+.header-section{
+  background: url(../public/assets/header.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.carouselImg{
+  width: 60%;
+  margin: auto;
+  border-radius: 20% 20% 100% 100%;
+}
+
+.slide-bg{
+  background: rgba(0, 0, 50, .7);
+  padding: 10px;
+}
+
+.slide-num{
+  margin-left: -50%;
+}
