@@ -59,7 +59,7 @@
     display: none;
   }
   .hamburger:hover {
-    background-color: #0D2F5F;
+    background-color: #31b496;
   }
 
   @media screen and (max-width: 768px) {
@@ -87,10 +87,10 @@
       /* // stacks the li tags vertically  */
       flex-direction: column;
      /* // makes menu span full height and width */
-      width: 100%;
+      width: 50%;
       /* float: right; */
       height: 100vh;
-      background-color: #0D2F5F;
+      background-color: rgb(15, 54, 56);
       /* border-top: 1px solid #31b496; */
       ;
     }
