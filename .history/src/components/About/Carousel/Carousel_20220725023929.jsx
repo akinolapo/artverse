@@ -35,7 +35,7 @@ const Carousel = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination,]}
         className="mySwiper"
       >
         <SwiperSlide className="text-center slide-bg">

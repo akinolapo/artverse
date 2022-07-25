@@ -5,12 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import 'swiper/css/navigation';
 
 // import "./styles.css";
 
 // import required modules
-import { Pagination,} from "swiper";
+import { Pagination } from "swiper";
 
 const Carousel = () => {
   return (
@@ -41,7 +40,7 @@ const Carousel = () => {
         <SwiperSlide className="text-center slide-bg">
           <span className="slide-num">01</span>
           <img className="carouselImg" src={process.env.PUBLIC_URL+`assets/294.jpg`} alt=''></img>
-          <h4 className="py-4">Amplifying Artist Voices</h4>
+          <h4>Amplifying Artist Voices</h4>
           <p>At Artverse, we believe an artist’s sales should be based on the quality of their work, not how well they can market themselves. Artverse is a platform that helps artists gain exposure for their work without having to beat the algorithm.</p>
         </SwiperSlide>
         <SwiperSlide className="text-center slide-bg">

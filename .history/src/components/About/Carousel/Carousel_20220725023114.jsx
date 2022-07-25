@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import 'swiper/css/navigation';
+import 'swiper/css/navigation';
 
 // import "./styles.css";
 
 // import required modules
-import { Pagination,} from "swiper";
+import { Pagination } from "swiper";
 
 const Carousel = () => {
   return (
@@ -35,7 +35,7 @@ const Carousel = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className="text-center slide-bg">

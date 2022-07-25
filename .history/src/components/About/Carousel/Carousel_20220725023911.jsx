@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination,} from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 const Carousel = () => {
   return (
@@ -18,6 +18,7 @@ const Carousel = () => {
          <Swiper
         slidesPerView={1}
         spaceBetween={10}
+        // navigation
         pagination={{
           clickable: true,
         }}
@@ -35,7 +36,7 @@ const Carousel = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className="text-center slide-bg">
