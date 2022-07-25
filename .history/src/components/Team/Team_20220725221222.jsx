@@ -4,7 +4,6 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 const Team = () => {
     return (
         <div id='team' className='py-10 px-20 theTeam'>
-            <br></br>
             <h2 className=' text-center text-3xl font-bold mb-4'>The Team</h2>
             <div className='grid grid-cols-1 gap-4 items-center md:grid-cols-3'>
                 <div>
@@ -28,26 +27,10 @@ const Team = () => {
                     </p>
                 </div>
             </div>
-            <div>
-                {/* <h4 className='text-center'>Other Team Members</h4> */}
-            <div className='block md:flex justify-center'>
-            <div className='text-center  p-5 md:p-10'>
-                        <img className='rounded-full m-auto' src={process.env.PUBLIC_URL+`assets/dev.webp`} alt='Founder'></img>
-                        <h5>Jason O'Rourke</h5>
-                        <h6>Dev Team</h6>
-                        <div className='flex justify-center'>
-                            <a href='https://twitter.com/jasonophoto' className='mr-2' target='_blank' rel="noreferrer"><AiOutlineTwitter className='social-icon'/></a>
-                        </div>
-                    </div>
-                    <div className='text-center p-5 md:p-10'>
-                        <img className='rounded-full m-auto' src={process.env.PUBLIC_URL+`assets/advisor.webp`} alt='Advisor'></img>
-                        <h5>Jack Wardal</h5>
-                        <h6>Advisor</h6>
-                        <div className='flex justify-center'>
-                            <a href='https://twitter.com/Wardalejack' className='mr-2' target='_blank' rel="noreferrer"><AiOutlineTwitter className='social-icon'/></a>
-                        </div>
-                    </div>
-            </div>
+      
+
+
+      
             </div>
         </div>
     )

@@ -3,8 +3,7 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 
 const Team = () => {
     return (
-        <div id='team' className='py-10 px-20 theTeam'>
-            <br></br>
+        <div id='team' className='py-10 px-20 thr'>
             <h2 className=' text-center text-3xl font-bold mb-4'>The Team</h2>
             <div className='grid grid-cols-1 gap-4 items-center md:grid-cols-3'>
                 <div>

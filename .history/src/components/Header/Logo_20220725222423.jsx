@@ -5,7 +5,7 @@ import { useState } from 'react'
 const Logo = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
-        <nav className="navigation px-2 md:px-20 text-white font-semibold ">
+        <nav className="navigation text-white font-semibold ">
             <a href='/'>
                 <div className=''>
                 <img src={process.env.PUBLIC_URL+`assets/logo.png`} alt='logo' width='120px' height='auto'></img>
