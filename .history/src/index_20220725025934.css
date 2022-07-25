@@ -83,12 +83,15 @@ h4{
 
 @media (max-width: 375px) {
   .btn-search{
+    border: 1px solid #fff;
     border-radius: 10px;
   }
   
   .search-box{
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px
   }
- 
+  .search-box:focus{
+    border: 1px solid #fff;
+  }
 }

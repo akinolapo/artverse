@@ -84,11 +84,11 @@ h4{
 @media (max-width: 375px) {
   .btn-search{
     border-radius: 10px;
+    margin-bottom: ;
   }
   
   .search-box{
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 10px
   }
  
 }
