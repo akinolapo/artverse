@@ -52,7 +52,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide className="text-center slide-bg">
         <span className="slide-num">03</span>
-        <img className="carouselImg" src={process.env.PUBLIC_URL+`assets/gold.png`} alt=''></img>
+        <img className="carouselImg" src={process.env.PUBLIC_URL+`assets/1403.jpg`} alt=''></img>
         <h4 className="py-4">Exclusive Early Access to Artist Drops</h4>
           <p>Artverse artists can provide exclusive access and prices to Artverse collectors before their work is available to the general public.</p>
         </SwiperSlide>
