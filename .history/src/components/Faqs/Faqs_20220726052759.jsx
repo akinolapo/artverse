@@ -1,13 +1,11 @@
 import React, { Fragment } from "react";
 import Faq from "react-faq-component";
-import data1 from "./data1";
-import data2 from "./data2";
+import data from "./data1";
 
 const Faqs = () => {
   return (
     <div id='faqs' className='py-10 px-20'>
-        <h2 className="text-center text-3xl font-bold">FAQs</h2>
-        <div className="block py-4 md:grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-2 gap-10">
         <Fragment>
       <Faq
         data={data1}
@@ -16,12 +14,12 @@ const Faqs = () => {
           titleTextColor: "#fff",
           rowTitleColor: "#78789a",
           rowTitleTextSize: "large",
-          rowContentColor: "#F8F0E3",
+          rowContentColor: "#48484a",
           rowContentTextSize: "16px",
           rowContentPaddingTop: "10px",
           rowContentPaddingBottom: "10px",
-          rowContentPaddingLeft: "5px",
-          rowContentPaddingRight: "10px",
+          rowContentPaddingLeft: "50px",
+          rowContentPaddingRight: "150px",
           arrowColor: "white"
         }}
         config={{
@@ -31,18 +29,18 @@ const Faqs = () => {
     </Fragment>
         <Fragment>
       <Faq
-        data={data2}
+        data={data}
         styles={{
           bgColor: "transparent",
           titleTextColor: "#fff",
           rowTitleColor: "#78789a",
           rowTitleTextSize: "large",
-          rowContentColor: "#F8F0E3",
+          rowContentColor: "#48484a",
           rowContentTextSize: "16px",
           rowContentPaddingTop: "10px",
           rowContentPaddingBottom: "10px",
-          rowContentPaddingLeft: "5px",
-          rowContentPaddingRight: "10px",
+          rowContentPaddingLeft: "50px",
+          rowContentPaddingRight: "150px",
           arrowColor: "white"
         }}
         config={{

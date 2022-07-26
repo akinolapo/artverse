@@ -7,7 +7,7 @@ const Faqs = () => {
   return (
     <div id='faqs' className='py-10 px-20'>
         <h2 className="text-center text-3xl font-bold">FAQs</h2>
-        <div className="block py-4 md:grid grid-cols-2 gap-10">
+        <div className="block md:grid grid-cols-2 gap-10">
         <Fragment>
       <Faq
         data={data1}
