@@ -6,7 +6,7 @@ const SiteName = () => {
     <div className='text-center mt-16'>
         <div className='pb-8'>
         <img className='m-auto' src={process.env.PUBLIC_URL+`assets/artverse.webp`} alt='artverse'></img>
-        <h3 className='text-2xl site-tag'>Connecting artists and collectors in the metaverse</h3>
+        <h3 className='text-2xl sit'>Connecting artists and collectors in the metaverse</h3>
         <img className='m-auto' src={process.env.PUBLIC_URL+`assets/artverse2.webp`} alt='artverse2'></img>
         </div>
         <Searchbox/>
